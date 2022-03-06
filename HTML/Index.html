@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrómeda</title>
+</head>
+<body>
+    <header>
+        <div id="imgheader">
+            <img src="img/PASTELERIA.png" alt="logo-andrómeda" width="50px" height="50px">
+        </div>
+        <div id="textos-header">
+            <h1>Pasteleria Andromeda</h1>
+        </div>
+        <div id="nav-tacos">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Inicio</a>
+                        <a href="#">Cuenta</a>
+                        <a href="#">Precios</a>
+                        <a href="#">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="cake-menu">
+            <h2>Menú</h2>
+            <div name="cake-flavours">
+                <h3>Tipos de bizcocho</h3>
+                <ul>
+                    <li>Fresa............... $80.00</li>
+                    <li>Chocolate........... $100.00</li>
+                    <li>Vainilla............ $90.00</li>
+                    <li>Redvelvet........... $85.00</li>
+                </ul>
+            </div>
+            <div name="cake-complements">
+                <h3>Decoraciones para pastel</h3>
+                <dl>
+                    <dt>Cubierta de Ganash de Fresa.......... $50.00</dt>
+                    <dd>Cubierta hecha a base de fresas ideal para decoración</dd>
+                    <dt>Cubierta de Ganash de Chocolate......... $60.00</dt>
+                    <dd>Cubierta hecha a base de chocolate obscuro ideal para decoración</dd>
+                    <dt>Cubierta de Ganash de Vainilla........... $ 65.00</dt>
+                    <dd>Cubierta hecha a base de saborizante de vainilla ideal para decoración</dd>
+                    <dt>Cubierta de Ganash de Vainilla(Redvelvet)........... $ 70.00</dt>
+                    <dd>Cubierta hecha a base de saborizante de vainilla y presentada en un color rojo ideal para decoración</dd>
+                    
+                </dl>
+            </div>
+        </section>
+        <section name="form-user">
+            <form action="" id="form-user">
+                <h2>Elige tus ingredientes</h2>
+                <div id="cake-combinations">
+                    <h3>Sabor de bizcocho</h3>
+                        <input type="checkbox">
+                        <label for="Fresa">Fresa</label>
+                        <input type="checkbox">
+                        <label for="Chocolate">Chocolate</label>
+                        <input type="checkbox">
+                        <label for="Vainilla">Vainilla</label>
+                        <input type="checkbox">
+                        <label for="Redvelvet">Redvelvet</label>
+                </div>
+                <div id="complement-comb">
+                    <h3>Complementos</h3>
+                        <input type="checkbox">
+                        <label for="Cubierta-fresa">Cubierta de fresa</label>
+                        <input type="checkbox">
+                        <label for="Cubierta-chocolate">Cubierta de chocolate</label>
+                        <input type="checkbox">
+                        <label for="Cubierta-vainilla">Cubierta de vainilla</label>
+                        <input type="checkbox">
+                        <label for="Cubierta-redvelvet">Cubierta de redvelvet</label><br><br>
+                </div>
+                <label for="name1">Ingrese nombre completo</label>
+                <input type="name" id="name1" name="name1" placeholder="Nombre completo">
+                <label for="last-name">Ingrese apellidos</label>
+                <input type="lastnames" id="lastnames" name="lastnames1" placeholder="Apellidos"><br>
+                <label for="email1">Ingrese correo electrónico</label>
+                <input type="email" name="email1" id="email1" placeholder="E-mail">
+                <label for="tel1">Ingrese número de telefóno</label>
+                <input type="tel" name="tel1" id="tel1" placeholder="Telefóno" maxlength="10"><br><br>
+                <label for="description1">Ingrese descripción de el pastel</label><br>
+                <br><textarea name="descprition1" id="descprition1" cols="30" rows="10" placeholder="Comentario"></textarea><br>
+                <input type="reset" id="borrar" value="Borrar">
+                <input type="button" id="boton1" name="button-enviar" value="Enviar" onclick="alert('¡Se ha enviado con exito!');">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <br>
+        <br>
+        <br>
+        <div id="footer-imgs">
+            <a href="Index.html"><img src="img/PASTELERIA.png" alt="footer-logo" width="50px" height="50px"></a>
+            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer"><img src="img/facebook (2).png" alt="" width="50px" height="50px"></a>
+            <a href="http://instagram.com" target="_blank" rel="noopener noreferrer"><img src="img/instagram (2).png" alt="" width="50px" height="50px"></a>
+        </div>
+        <div id="footer-textos">
+            <a href="#"><h3>Política de privacidad</h3></a>
+            <a href="#"><h3>Política de cookies</h3></a><br>
+            <h4>Gerardo Solano | SweetKenny 2022</h4>
+        </div>
+    </footer>
+</body>
+</html>
